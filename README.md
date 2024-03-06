@@ -37,3 +37,4 @@ São aqueles requisitos que não partem do cliente. São mais técnicos. (Qual b
 - [ ] Todas as listas do usuário precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um jwt (jsonwebtoken);
 # api-rest-solid
+# api-rest-solid-
