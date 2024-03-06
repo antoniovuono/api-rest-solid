@@ -38,3 +38,4 @@ São aqueles requisitos que não partem do cliente. São mais técnicos. (Qual b
 - [ ] O usuário deve ser identificado por um jwt (jsonwebtoken);
 # api-rest-solid
 # api-rest-solid-
+# api-rest-solid
