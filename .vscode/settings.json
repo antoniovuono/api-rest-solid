@@ -3,5 +3,6 @@
         "Fastify",
         "rocketseat",
         "tsup"
-    ]
+    ],
+    "cSpell.overrides": []
 }

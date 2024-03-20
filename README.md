@@ -7,7 +7,7 @@ GymPass style app.
 É uma funcionalidade que o aplicativo deve ter.
 
 - [x] Deve ser possível cadastrar um usuário;
-- [ ] Deve ser possível realizar autenticação;
+- [x] Deve ser possível realizar autenticação;
 - [ ] Deve ser possível obter o perfil de um usuário logado;
 - [ ] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
 - [ ] Dever ser possível o usuário obter seu histórico de check-ins;
@@ -33,7 +33,7 @@ GymPass style app.
 São aqueles requisitos que não partem do cliente. São mais técnicos. (Qual banco de dados eu vou utilizar ? qual ferramenta ? qual biblioteca ?)
 
 - [x] A senha do usuária precisa estar criptografada (bcrypt);
-- [ ] Os dados da aplicação devem estar persistidos dentro de um banco de dados PostgresSQL;
+- [x] Os dados da aplicação devem estar persistidos dentro de um banco de dados PostgresSQL;
 - [ ] Todas as listas do usuário precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um jwt (jsonwebtoken);
 
