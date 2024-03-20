@@ -28,7 +28,7 @@ describe('Get User Profile Use Case', () => {
   })
 
   it('should not be able to get a non-existing user profile', async () => {
-    expect(() =>
+    await expect(() =>
       getUserProfileUseCase.execute({
         userId: 'non-existing-user-id',
       }),

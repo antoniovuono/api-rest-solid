@@ -44,7 +44,7 @@ describe('Authenticate Use Case', () => {
       password_hash: await hash('123456', 6),
     })
 
-    expect(
+    await expect(
       async () =>
         await authenticateUseCase.execute({
           email: 'jhondoe@example.com',
