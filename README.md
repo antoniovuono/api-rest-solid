@@ -14,7 +14,7 @@ GymPass style app.
 - [ ] Deve ser possível o usuário buscar academias próximas;
 - [ ] Deve ser possível o usuário buscar academias pelo nome;
 - [ ] Deve ser possível o usuário realizar check-in em uma academia;
-- [ ] Deve ser possível validar o check-in de um usuário;
+- [x] Deve ser possível validar o check-in de um usuário;
 - [ ] Deve ser possível cadastrar uma academia;
 
 ## RNs (Regras de negócio)
@@ -22,7 +22,7 @@ GymPass style app.
 É uma regra que determina como a funcionalidade deve se comportar.
 
 - [x] O usuário não deve poder se cadastrar com um e-mail duplicado;
-- [ ] O usuário não pode realizar dois check-ins no mesmo dia;
+- [x] O usuário não pode realizar dois check-ins no mesmo dia;
 - [ ] O usuário não pode fazer check-in se não tiver perto (100m) da academia;
 - [ ] O check-in só pode ser validado até 20 minutos depois de ser criado;
 - [ ] O check-in só pode ser validado por adminstradores;
