@@ -9,7 +9,7 @@ GymPass style app.
 - [x] Deve ser possível cadastrar um usuário;
 - [x] Deve ser possível realizar autenticação;
 - [x] Deve ser possível obter o perfil de um usuário logado;
-- [ ] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
+- [x] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
 - [ ] Dever ser possível o usuário obter seu histórico de check-ins;
 - [ ] Deve ser possível o usuário buscar academias próximas;
 - [ ] Deve ser possível o usuário buscar academias pelo nome;
@@ -34,7 +34,7 @@ São aqueles requisitos que não partem do cliente. São mais técnicos. (Qual b
 
 - [x] A senha do usuária precisa estar criptografada (bcrypt);
 - [x] Os dados da aplicação devem estar persistidos dentro de um banco de dados PostgresSQL;
-- [ ] Todas as listas do usuário precisam estar paginadas com 20 itens por página;
+- [x] Todas as listas do usuário precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um jwt (jsonwebtoken);
 
 # api-rest-solid
