@@ -50,4 +50,26 @@ export class InMemoryCheckInsRepository implements CheckInsRepository {
   async countByUserId(userId: string) {
     return this.items.filter((checkIn) => checkIn.user_id === userId).length
   }
+
+  async findById(id: string) {
+    const checkIn = this.items.find((checkIn) => checkIn.id === id)
+
+    // O find retorna undefined se não encontrar o item e nós queremos trabalhar com o null
+    if (!checkIn) {
+      return null
+    }
+
+    return checkIn
+  }
+
+  async save(checkIn: CheckIn) {
+    const checkInIndex = this.items.findIndex((item) => item.id === checkIn.id)
+
+    // findByIndex: retorna -1 caso ele não encontre nada então fizemos essa lógica para garantir que o index foi encontrado
+    if (checkInIndex >= 0) {
+      this.items[checkInIndex] = checkIn
+    }
+
+    return checkIn
+  }
 }
