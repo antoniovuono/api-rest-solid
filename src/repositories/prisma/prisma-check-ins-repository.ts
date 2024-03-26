@@ -22,7 +22,7 @@ export class PrismaCheckInRepository implements CheckInsRepository {
         created_at: {
           // após a meia-noite do dia especifico
           gte: startOfDay.toDate(),
-          // Antes da criacao do dia seguinte
+          // Antes do dia seguinte
           lte: endOfDay.toDate(),
         },
       },
