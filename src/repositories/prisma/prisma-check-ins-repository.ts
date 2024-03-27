@@ -40,8 +40,10 @@ export class PrismaCheckInRepository implements CheckInsRepository {
       where: {
         user_id: userId,
       },
+      // numero de registros retornados na bsuca (paginação)
       take: 20,
-      skip: page - 1 * 20,
+      // numero de registros que serão pulados
+      skip: (page - 1) * 20,
     })
 
     return checkIns
