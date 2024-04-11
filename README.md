@@ -68,6 +68,12 @@ Para subir o container, execute o seguinte comando:
 docker-compose up -d
 ```
 
+Você pode utilizar o `prisma-studio` para interagir com as tabelas do banco de dados.
+
+```
+npx prisma studio
+```
+
 ### Rodando a Aplicação
 
 `start:dev`: Este comando inicia o servidor em modo de desenvolvimento. Ele usa o tsx para reiniciar automaticamente o servidor sempre que um arquivo é alterado. Execute o comando com:
