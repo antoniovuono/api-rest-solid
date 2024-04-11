@@ -29,5 +29,5 @@ jobs:
 
       - run: yarn run test:e2e
         env:
-          JWT_SECRET: testing
+          JWT_SECRET: ignite-node-03
           DATABASE_URL: "postgresql://docker:docker@localhost:5432/apisolid?schema=public"
