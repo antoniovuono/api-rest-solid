@@ -25,8 +25,8 @@ GymPass style app.
 - [x] O usuário não pode realizar dois check-ins no mesmo dia;
 - [x] O usuário não pode fazer check-in se não tiver perto (100m) da academia;
 - [x] O check-in só pode ser validado até 20 minutos depois de ser criado;
-- [ ] O check-in só pode ser validado por adminstradores;
-- [ ] A academia só pode ser cadastrada por adminstradores;
+- [x] O check-in só pode ser validado por adminstradores;
+- [x] A academia só pode ser cadastrada por adminstradores;
 
 ## RNFs (Requisitos não-funcionais)
 
@@ -35,8 +35,4 @@ São aqueles requisitos que não partem do cliente. São mais técnicos. (Qual b
 - [x] A senha do usuária precisa estar criptografada (bcrypt);
 - [x] Os dados da aplicação devem estar persistidos dentro de um banco de dados PostgresSQL;
 - [x] Todas as listas do usuário precisam estar paginadas com 20 itens por página;
-- [ ] O usuário deve ser identificado por um jwt (jsonwebtoken);
-
-# api-rest-solid
-
-# api-rest-solid-
+- [x] O usuário deve ser identificado por um jwt (jsonwebtoken);
